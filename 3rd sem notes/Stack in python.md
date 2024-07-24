@@ -54,4 +54,16 @@ Explanation:
 	*We can simply do `adress++` that will make it accessible again right?*
 	well yes, but reading a stack is only done from top to bottom not the other way around also if privacy & security is the main concern than we can also replace the original value with some garbage value.
 	
-	
+#### `peek()`
+```c
+
+```
+peek is used after the pop or push operations are done. It is like showing what is at the top of the stack. When the address will be updated after pushing, peek can be used to print the `stack(address)`. 
+
+#### `display()`
+```c
+
+```
+display just prints the whole stack from top to bottom using a for or while loop, just like an array.
+
+---
